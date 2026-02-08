@@ -90,6 +90,7 @@ F H <BR>
 
 ## PROGRAM:
 ```
+
 from collections import defaultdict
 def dfs(graph,start,visited,path):
     path.append(start)
@@ -113,6 +114,8 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
+
+
 ```
 
 
